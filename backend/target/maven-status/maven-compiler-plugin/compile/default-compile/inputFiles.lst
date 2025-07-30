@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\BackendApplication.java
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\controller\CouponController.java
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\controller\RewardController.java
@@ -15,3 +16,22 @@ D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\back
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\service\RewardService.java
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\service\UserPointsService.java
 D:\Projects\Spring boot\Coupon&Rewards\backend\src\main\java\com\springboot\backend\service\UserService.java
+=======
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\BackendApplication.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\controller\CouponController.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\controller\RewardController.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\controller\UserController.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\controller\UserPointsController.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\model\Coupon.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\model\Reward.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\model\User.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\model\UserPoints.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\repository\CouponRepository.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\repository\RewardRepository.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\repository\UserPointsRepository.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\repository\UserRepository.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\service\CouponService.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\service\RewardService.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\service\UserPointsService.java
+C:\Users\91811\Desktop\khanish\backend\src\main\java\com\springboot\backend\service\UserService.java
+>>>>>>> master

@@ -11,7 +11,7 @@ public class UserPoints {
 
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
-    private User user_id;
+    private User user;
 
     @Column(nullable = false)
     private Long totalPoints;
@@ -30,7 +30,7 @@ public class UserPoints {
 
     public UserPoints(User user_id, Long totalPoints) {
         this();
-        this.user_id = user_id;
+        this.user = user_id;
         this.totalPoints = totalPoints;
     }
 
@@ -43,11 +43,11 @@ public class UserPoints {
     }
 
     public User getUser() {
-        return user_id;
+        return user;
     }
 
     public void setUser(User user_id) {
-        this.user_id = user_id;
+        this.user = user_id;
     }
 
     public Long getTotalPoints() {

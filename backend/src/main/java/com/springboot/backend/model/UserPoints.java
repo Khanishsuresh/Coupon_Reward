@@ -9,10 +9,6 @@ public class UserPoints {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
-    private User user;
-
     @Column(nullable = false)
     private Long totalPoints;
 
@@ -21,6 +17,10 @@ public class UserPoints {
 
     @Column(nullable = false)
     private Long pointsSpent;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
     public UserPoints() {
         this.totalPoints = 0L;

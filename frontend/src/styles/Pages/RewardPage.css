@@ -1,0 +1,227 @@
+.page-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.page-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.form-section {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1px solid #e2e6ea;
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.reward-form .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.reward-form .form-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: 500;
+    color: #555;
+}
+
+.reward-form .form-group input[type="text"],
+.reward-form .form-group input[type="number"] {
+    flex: 3;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.reward-form .checkbox-group {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.reward-form .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.reward-form .form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.reward-form .submit-button,
+.reward-form .cancel-button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.reward-form .submit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.reward-form .submit-button:hover {
+    background-color: #0056b3;
+}
+
+.reward-form .cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.reward-form .cancel-button:hover {
+    background-color: #5a6268;
+}
+
+.rewards-list-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.rewards-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.rewards-table th,
+.rewards-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.rewards-table th {
+    background-color: #f2f2f2;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.rewards-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.rewards-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.actions-cell button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}

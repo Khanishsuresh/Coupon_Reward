@@ -1,0 +1,101 @@
+.home-content {
+    padding: 20px;
+    max-width: 1200px; /* Limit content width for better readability */
+    margin: 20px auto; /* Center the content */
+}
+
+.page-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2.5em; /* Larger title */
+    font-weight: 600;
+}
+
+.summary-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px; /* Space before leaderboard */
+}
+
+.summary-box {
+    background-color: #e0f2f7; /* Light blue background for boxes */
+    border: 1px solid #b3e5fc; /* Border color */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px 35px;
+    min-width: 220px; /* Ensure boxes are wide enough */
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.summary-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.summary-box h3 {
+    color: #0288d1; /* A deeper blue for titles */
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.summary-box p {
+    font-size: 3.5em; /* Large numbers for counts */
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.leaderboard-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.leaderboard-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.leaderboard-table th {
+    background-color: #f8f8f8;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.leaderboard-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.leaderboard-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

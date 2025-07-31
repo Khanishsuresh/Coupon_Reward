@@ -1,0 +1,110 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px; /* Add some padding around the container */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.login-form {
+    background-color: white;
+    padding: 40px; /* Adjusted padding */
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    width: 100%; /* Make width responsive */
+    max-width: 400px; /* Set a max-width */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.login-form:hover {
+    transform: translateY(-5px);
+}
+
+.login-form h2 {
+    margin-bottom: 30px; /* Adjusted margin */
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.auth-message {
+    margin-bottom: 20px; /* Adjusted margin */
+    padding: 10px; /* Adjusted padding */
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9em; /* Slightly smaller font for messages */
+}
+
+.auth-message.success {
+    background-color: #e6f7e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+
+.auth-message.error {
+    background-color: #fce4ec;
+    color: #c62828;
+    border: 1px solid #f8bbd0;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.login-form input {
+    width: 100%; /* Full width within its container */
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box; /* Crucial for correct width calculation with padding */
+}
+
+.login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.login-form .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+    margin-top: 10px; /* Add some space above the button */
+}
+
+.login-form .login-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+}
+
+.toggle-auth-mode {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.toggle-auth-mode span {
+    font-weight: 600;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.toggle-auth-mode span:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,71 @@
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensures vertical alignment of all items in navbar */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+    display: flex; /* Use flexbox for logo and icon alignment */
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-logo a:hover {
+    color: #a2d2ff;
+}
+
+.logo-icon {
+    font-size: 1.2em;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navbar-links li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+}
+
+.navbar-links li a:hover {
+    background-color: #34495e;
+    color: white;
+}
+
+.navbar-logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-logout-btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}

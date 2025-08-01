@@ -16,7 +16,7 @@ const UserPointsPage = ({ onLogout }) => {
                 const usersResponse = await axios.get(`${API_BASE_URL}/users`);
                 const allUsers = usersResponse.data;
 
-                const userPointsResponse = await axios.get(`${API_BASE_URL}/user-points`);
+                const userPointsResponse = await axios.get(`${API_BASE_URL}/userpoints`);
                 const allUserPoints = userPointsResponse.data;
 
                 const combinedLeaderboard = allUserPoints.map(up => {
